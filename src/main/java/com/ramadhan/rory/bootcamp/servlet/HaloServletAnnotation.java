@@ -12,12 +12,13 @@ import java.io.IOException;
 public class HaloServletAnnotation extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //language=HTML
         String html = "<!doctype html>\n" +
                 "<html lang=\"en\">\n" +
                 "<head>\n" +
                 "    <meta charset=\"UTF-8\">\n" +
                 "    <meta name=\"viewport\"\n" +
-                "          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n" +
+                "      `    content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n" +
                 "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" +
                 "    <title>Belajar Servlet Annotation</title>\n" +
                 "</head>\n" +

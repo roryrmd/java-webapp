@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [01/Dec/2021:09:13:10 +0700] "GET /bootcamp-java-webapp/example/request-file.html HTTP/1.1" 304 - http-bio-8080-exec-1 32
+0:0:0:0:0:0:0:1 - - [01/Dec/2021:09:13:10 +0700] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [01/Dec/2021:09:13:26 +0700] "POST /bootcamp-java-webapp/kirim-file HTTP/1.1" 200 693 http-bio-8080-exec-5 45
+0:0:0:0:0:0:0:1 - - [01/Dec/2021:09:13:33 +0700] "POST /bootcamp-java-webapp/kirim-file HTTP/1.1" 200 693 http-bio-8080-exec-8 10

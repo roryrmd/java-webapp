@@ -1,2 +1,6 @@
+com\ramadhan\rory\bootcamp\servlet\example\ServletHandleArrayRequest.class
 com\ramadhan\rory\bootcamp\servlet\HaloServlet.class
 com\ramadhan\rory\bootcamp\servlet\HaloServletAnnotation.class
+com\ramadhan\rory\bootcamp\servlet\utils\FileUtils.class
+com\ramadhan\rory\bootcamp\servlet\example\ServletHandleFileRequest.class
+com\ramadhan\rory\bootcamp\servlet\example\ServletHandleRequest.class

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Data Mahasiswa</title>
+</head>
+<body>
+<form action="/bootcamp-java-webapp/kirim" method="get">
+    <div>
+        <label for="nim">NIM</label>
+        <input type="text" name="nimo" id="nim" placeholder="Input your nim">
+    </div>
+    <div>
+        <label for="nama">Nama Lengkap Mahasiswa</label>
+        <input type="text" name="nama" id="nama" placeholder="Input your fullname">
+    </div>
+    <div>
+        <select name="kota" id="kota">
+            <option value="bandung">Kota Bandung</option>
+            <option value="jakarta">Kota Jakarta</option>
+            <option value="surabaya">Kota Surabaya</option>
+            <option value="solo">Kota Solo</option>
+            <option value="semarang">Kota Semarang</option>
+        </select>
+    </div>
+    <div>
+        <label for="tanggalLahir">Tanggah Lahir</label>
+        <input type="date" name="tanggalLahir" id="tanggalLahir">
+    </div>
+    <div>
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>
+</body>
+</html>
